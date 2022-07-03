@@ -155,3 +155,17 @@ body{
 .content h2{
     margin-top: 10px;
 }
+
+
+/* site tiele */
+
+.site-title{
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.site-title h1 {
+    color: white;
+    letter-spacing: 6px;
+    text-shadow: 2px 3px #ff7a00bd;
+}
