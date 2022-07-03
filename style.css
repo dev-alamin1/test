@@ -4,4 +4,154 @@
 
 body{
     background-image: url('flower.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* make container */
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* make row */
+
+.row{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* make colum */
+.col-2{
+    width: 18%;
+    float: left;
+}
+
+.col-4{
+    width: 38%;
+    float: left;
+}
+
+.col-6{
+    width: 58%;
+    float: left;
+}
+
+
+.col-8{
+    width: 80%;
+    /* float: left; */
+    margin: 0 auto;
+}
+
+.col{
+    width: 100%;
+}
+
+/* left content */
+.left-content{
+    background-color: rgb(146, 188, 225);
+    margin-right: 5px;
+    
+}
+
+.content{
+    background-color: rgba(146, 188, 225,0.5);
+    box-shadow: 1px 1px 7px #555;
+    border-radius :5px;
+    
+}
+
+/* margin top */
+.mt-40{
+    margin-top: 40px;
+}
+
+/* right content */
+
+.right-content{
+    background-color: rgb(146, 188, 225);
+    margin-left: 5px;
+    
+}
+
+/* aling */
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/* tour title */
+
+.tour-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+
+/* article */
+.article{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background-color:#3f87da29;
+    border-radius: 5px;
+}
+
+/* article title */
+
+.article-title{
+    text-align: center;
+    color: #fffbfb;
+    word-spacing: 8px;
+    letter-spacing: 5px;
+    text-shadow: 1px 0px 3px darkred;
+}
+
+.article-title h2{
+
+    margin-bottom: 0;
+ }
+
+
+/* article-text */
+.article-text{
+    padding: 10px;
+    font-weight: lighter;
+    text-align: justify;
+    color: #fff;
+}
+
+.article-text p{
+    margin: 0;
+}
+
+/* artice-image */
+.artice-image{
+    width: 80%;
+    /* background: red; */
+    margin: 0 auto;
+}
+.artice-image img{
+    min-width: 90%;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.content h2{
+    margin-top: 10px;
 }
